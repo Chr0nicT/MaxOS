@@ -17,8 +17,8 @@
 
 static NSMutableArray *toLog;
 
-#define TWEAKSDIRECTORY @"/Library/Application\\ Support/MaxOS/Tweaks/"
-#define LOGDIR @"/Library/Application\\ Support/MaxOS/"
+#define TWEAKSDIRECTORY @"/Library/Application Support/MaxOS/Tweaks/"
+#define LOGDIR @"/Library/Application Support/MaxOS/"
 
 void fileLog() {
     NSString *path = [LOGDIR stringByAppendingPathComponent:@"MaxOSLog.txt"];

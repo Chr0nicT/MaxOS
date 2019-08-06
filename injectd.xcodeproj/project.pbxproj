@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AF7ED955219B5AAB00333258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7ED954219B5AAB00333258 /* main.m */; };
 		B8CAA17322FA13F800880F4F /* mach_inject.c in Sources */ = {isa = PBXBuildFile; fileRef = B8CAA17022FA13F800880F4F /* mach_inject.c */; };
-		B8CAA17422FA13F800880F4F /* bootstrap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CAA17222FA13F800880F4F /* bootstrap.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,6 @@
 		AF7ED954219B5AAB00333258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8CAA17022FA13F800880F4F /* mach_inject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_inject.c; sourceTree = "<group>"; };
 		B8CAA17122FA13F800880F4F /* mach_inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_inject.h; sourceTree = "<group>"; };
-		B8CAA17222FA13F800880F4F /* bootstrap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = bootstrap.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CAA17422FA13F800880F4F /* bootstrap.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +60,6 @@
 		AF7ED953219B5AAB00333258 /* injectd */ = {
 			isa = PBXGroup;
 			children = (
-				B8CAA17222FA13F800880F4F /* bootstrap.dylib */,
 				B8CAA17022FA13F800880F4F /* mach_inject.c */,
 				B8CAA17122FA13F800880F4F /* mach_inject.h */,
 				AF7ED954219B5AAB00333258 /* main.m */,

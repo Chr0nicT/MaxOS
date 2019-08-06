@@ -13,14 +13,15 @@
 
 @end
 
-@interface NSFlippedView_Hook : NSView
+@interface NSApplicationDelegate_Hook : NSObject
 @end
 
-@implementation NSFlippedView_Hook
+@implementation NSApplicationDelegate_Hook
 
--(void)drawRect:(CGRect)rect {
-    //NSFlippedView draws the stripes in this method.
-    [super drawRect:rect];
+- (void)applicationDidFinishLaunching:(NSNotification *)arg1
+{
+    NSLog(@"FINISHED!");
+    fprintf(stderr, "FINISHED!");
 }
 
 @end
